@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #1e3a8a;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.navbar__list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__item {
+  margin-right: 20px;
+}
+
+.navbar__link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar__link:hover {
+  color: #ffcc00; 
+  transition: color 0.3s ease; 
+}
